@@ -1,0 +1,24 @@
+{
+  "name": "vite-plugin-add-commit-info",
+  "version": "0.0.2",
+  "homepage": "https://github.com/mmdctjj/vite-plugin-add-commit-info",
+  "description": "auto add version commit info to your index.html",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "publish": "npm publish"
+  },
+  "keywords": [],
+  "module": "src/index.js",
+  "type": "module",
+  "author": "mmdctjj",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "moment": "^2.29.4",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "rollup": "^3.26.2"
+  }
+}
