@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-add-commit-info",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "homepage": "https://github.com/mmdctjj/vite-plugin-add-commit-info",
   "description": "auto add version commit info to your index.html",
   "main": "dist/index.js",

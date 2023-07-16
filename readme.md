@@ -22,5 +22,18 @@ export default defineConfig({
 });
 ```
 
+### warn
+
+because jsdom@22.1.0, node version >= 16
+
+```js
+npm i vite-plugin-add-commit-info
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'jsdom@22.1.0',
+npm WARN EBADENGINE   required: { node: '>=16' },
+npm WARN EBADENGINE   current: { node: 'v14.21.3', npm: '9.7.2' }
+npm WARN EBADENGINE }
+```
+
 ### LICENSE
 MIT

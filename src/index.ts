@@ -11,7 +11,7 @@ export default (option) => {
     description,
     extendInfo = {},
     root = 'body'
-  } = option
+  } = option ?? {}
 
   return {
     name: 'vate-plugin-add-commit-info',
